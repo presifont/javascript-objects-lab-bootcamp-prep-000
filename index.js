@@ -16,7 +16,7 @@ function deleteFromObjectByKey(object, key) {
 }
 function deleteFromObjectByKey(object, key) {
   var obj = {object, key}
-  var newObj = Object.assing{{}, obj}
+  var newObj = Object.assin({}, obj})
   delete newObj.key
   return newObj
 }
